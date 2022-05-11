@@ -1,4 +1,5 @@
-
+import { isMobile, bodyLockStatus, bodyLock, bodyUnlock, bodyLockToggle, FLS } from "../files/functions.js";
+import { flsModules } from "../files/modules.js";
 // Сниппет (HTML): pl
 
 // Класс Popup
