@@ -33,7 +33,7 @@ flsFunctions.isWebp();
 
 /*
 Попапы
-Сниппет (HTML): pl
+
 */
 import './files/popup.js'
 
