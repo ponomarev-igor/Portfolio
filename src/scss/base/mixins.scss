@@ -8,6 +8,14 @@
 		font-style: #{$style};
 	}
 }
+
+@mixin flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
 //Percent
 @function percent($px, $from) {
 	$result: math.div($px, $from) * 100%;
