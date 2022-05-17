@@ -26,36 +26,32 @@
     align-items: center;
     margin: 0px 0px 40px 0px;
     color: $mainColor;
-    font-weight: 700;
+    
     
   }
 
   &__title {
-  font-family: 'Gilroy-Bold';
   font-size: 47.3392px;
   line-height: percent(59px,47px);
-  
   max-width:130px ;
+  font-weight: 700;
 
   }
 
   &__subtitle {
-    max-width: 150px;
-
+    max-width: 129px;
     font-weight: 500;
   }
 
   &__lang {
     transform: rotate(-90deg);
-    
+    font-weight: 700;
   }
 
   &__image {
 img{
   width: 100%;
 }
-
-
   }
 }
 .lang {
@@ -91,14 +87,15 @@ img{
   }
 
   &__title {
-    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     font-size: 34px;
     line-height: 42px;
     padding: 0px 0px 70px 0px;
   }
 
   &__subtitle {
-    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: percent(22px,18px);
     font-weight: 500;
   }
 
@@ -132,7 +129,6 @@ img{
 
   &__text {
     max-width: 99px;
-    font-family: 'Gilroy-Bold';
     font-size: 14px;
     line-height: 17px;
     text-align: center;
@@ -148,6 +144,7 @@ img{
 .page {
 
   &__works {
+    margin: 0px 0px 200px 0px;
   }
 }
 .works {
@@ -156,7 +153,6 @@ img{
   }
 
   &__title {
-  font-family: 'Gilroy-Bold';
   font-weight: 700;
   font-size: 34px;
   line-height: 42px;
@@ -178,20 +174,19 @@ img{
 
   &__text {
     text-align: center;
+    font-weight: 500;
     margin: 0px 0px 100px 0px;
-    font-family: 'Gilroy-Medium';
     font-size: 18px;
     line-height: percent(24px,18px);
     text-align: center;
-    text-decoration-line: underline;
+&:hover{
+  text-decoration-line: underline;
+  cursor: pointer;
+}
   }
 }
 .container {
 }
-
-
-//====================================================================================================
-
 
 
 
